@@ -27,10 +27,12 @@ public class EditLead {
          Select state = new Select(dropState);
          state.selectByIndex(5);
          browser.findElement(By.className("smallSubmit")).click();
-         browser.findElement(By.tagName("Edit")).click();
+         browser.findElement(By.linkText("Edit")).click();
          browser.findElement(By.id("createLeadForm_description")).clear();
          browser.findElement(By.id("createLeadForm_importantNote")).sendKeys("added important point");
+         //browser.findElement(By.name("submitButton"));
          browser.findElement(By.className("smallSubmit")).click();
+         
          
          
 	}

@@ -4,11 +4,8 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.support.ui.Select;
-//import org.openqa.selenium.firefox.GeckoDriverInfo;
-//import org.openqa.selenium.safari.SafariDriver;
-//import com.sun.org.apache.bcel.internal.generic.Select;
 
-public class PractiseMyFirstAutomation {
+public class DublicateLead {
 	public static void main(String[] args) {
 		//GeckoDriverInfo browser = new GeckoDriverInfo();
 		EdgeDriver browser = new EdgeDriver();
@@ -45,19 +42,5 @@ public class PractiseMyFirstAutomation {
 		browser.findElement(By.className("smallSubmit")).click();
 		System.out.println(browser.getTitle());
 		
-		
-		
-		
-		
-		
 	}
-	
-		
-		
-			
-		
-				
-		
-	}
-
-
+}
